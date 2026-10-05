@@ -1,0 +1,44 @@
+name: Contribution calendar art
+on:
+  schedule:
+    - cron: '37 6 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Today only, or recover past missed pixels
+        type: choice
+        options:
+          - daily
+          - catch-up
+        default: daily
+permissions:
+  contents: write
+concurrency:
+  group: contribution-calendar-art
+  cancel-in-progress: false
+jobs:
+  paint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      ART_AUTHOR_EMAIL: ${{ vars.ART_AUTHOR_EMAIL }}
+      ART_MODE: ${{ inputs.mode || 'daily' }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+      - name: Configure account author locally
+        run: |
+          test -n "$ART_AUTHOR_EMAIL"
+          git config user.name 'Sultan Kassam'
+          git config user.email "$ART_AUTHOR_EMAIL"
+      - name: Verify current state and history
+        run: python3 scripts/verify-pattern.py
+      - name: Append only due art pixels
+        run: python3 scripts/apply-pattern.py --mode "$ART_MODE" --apply
+      - name: Verify dates and uniqueness
+        run: python3 scripts/verify-pattern.py
+      - name: Push only when new commits exist
+        run: |
+          if [ "$(git rev-list --count origin/main..HEAD)" = "0" ]; then exit 0; fi
+          git push origin HEAD:main

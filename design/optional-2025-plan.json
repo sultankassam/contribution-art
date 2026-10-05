@@ -1,0 +1,749 @@
+{
+  "year": 2025,
+  "text": "SULTAN KASSAM",
+  "selected": false,
+  "rows": [
+    "00000000000000000000000000000000000000000000000000000",
+    "01110101010001110010010010001010010011101110010010010",
+    "01000101010000100101011010001010101010001000101011110",
+    "01110101010000100111010110001100111011101110111010010",
+    "00010101010000100101010010001010101000100010101010010",
+    "01110111011100100101010010001010101011101110101010010",
+    "00000000000000000000000000000000000000000000000000000"
+  ],
+  "pixels": [
+    {
+      "date": "2025-01-06",
+      "column": 1,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-07",
+      "column": 1,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-08",
+      "column": 1,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-10",
+      "column": 1,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-13",
+      "column": 2,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-15",
+      "column": 2,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-17",
+      "column": 2,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-20",
+      "column": 3,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-22",
+      "column": 3,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-23",
+      "column": 3,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-01-24",
+      "column": 3,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-03",
+      "column": 5,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-04",
+      "column": 5,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-05",
+      "column": 5,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-06",
+      "column": 5,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-07",
+      "column": 5,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-14",
+      "column": 6,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-17",
+      "column": 7,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-18",
+      "column": 7,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-19",
+      "column": 7,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-20",
+      "column": 7,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-02-21",
+      "column": 7,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-03-03",
+      "column": 9,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-03-04",
+      "column": 9,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-03-05",
+      "column": 9,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-03-06",
+      "column": 9,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-03-07",
+      "column": 9,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-03-14",
+      "column": 10,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-03-21",
+      "column": 11,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-03-31",
+      "column": 13,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-04-07",
+      "column": 14,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-04-08",
+      "column": 14,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-04-09",
+      "column": 14,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-04-10",
+      "column": 14,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-04-11",
+      "column": 14,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-04-14",
+      "column": 15,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-04-29",
+      "column": 17,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-04-30",
+      "column": 17,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-01",
+      "column": 17,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-02",
+      "column": 17,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-05",
+      "column": 18,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-07",
+      "column": 18,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-13",
+      "column": 19,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-14",
+      "column": 19,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-15",
+      "column": 19,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-16",
+      "column": 19,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-26",
+      "column": 21,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-27",
+      "column": 21,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-28",
+      "column": 21,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-29",
+      "column": 21,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-05-30",
+      "column": 21,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-06-03",
+      "column": 22,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-06-11",
+      "column": 23,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-06-16",
+      "column": 24,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-06-17",
+      "column": 24,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-06-18",
+      "column": 24,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-06-19",
+      "column": 24,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-06-20",
+      "column": 24,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-07-14",
+      "column": 28,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-07-15",
+      "column": 28,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-07-16",
+      "column": 28,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-07-17",
+      "column": 28,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-07-18",
+      "column": 28,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-07-23",
+      "column": 29,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-07-28",
+      "column": 30,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-07-29",
+      "column": 30,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-07-31",
+      "column": 30,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-01",
+      "column": 30,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-12",
+      "column": 32,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-13",
+      "column": 32,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-14",
+      "column": 32,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-15",
+      "column": 32,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-18",
+      "column": 33,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-20",
+      "column": 33,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-26",
+      "column": 34,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-27",
+      "column": 34,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-28",
+      "column": 34,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-08-29",
+      "column": 34,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-08",
+      "column": 36,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-09",
+      "column": 36,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-10",
+      "column": 36,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-12",
+      "column": 36,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-15",
+      "column": 37,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-17",
+      "column": 37,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-19",
+      "column": 37,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-22",
+      "column": 38,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-24",
+      "column": 38,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-25",
+      "column": 38,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-09-26",
+      "column": 38,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-06",
+      "column": 40,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-07",
+      "column": 40,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-08",
+      "column": 40,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-10",
+      "column": 40,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-13",
+      "column": 41,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-15",
+      "column": 41,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-17",
+      "column": 41,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-20",
+      "column": 42,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-22",
+      "column": 42,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-23",
+      "column": 42,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-10-24",
+      "column": 42,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-04",
+      "column": 44,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-05",
+      "column": 44,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-06",
+      "column": 44,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-07",
+      "column": 44,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-10",
+      "column": 45,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-12",
+      "column": 45,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-18",
+      "column": 46,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-19",
+      "column": 46,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-20",
+      "column": 46,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-11-21",
+      "column": 46,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-01",
+      "column": 48,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-02",
+      "column": 48,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-03",
+      "column": 48,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-04",
+      "column": 48,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-05",
+      "column": 48,
+      "row": 5,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-09",
+      "column": 49,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-16",
+      "column": 50,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-22",
+      "column": 51,
+      "row": 1,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-23",
+      "column": 51,
+      "row": 2,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-24",
+      "column": 51,
+      "row": 3,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-25",
+      "column": 51,
+      "row": 4,
+      "commits": 1
+    },
+    {
+      "date": "2025-12-26",
+      "column": 51,
+      "row": 5,
+      "commits": 1
+    }
+  ],
+  "note": "Optional plan only. Requires explicit user selection before applying."
+}
