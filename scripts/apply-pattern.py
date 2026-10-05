@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 NAIROBI=timezone(timedelta(hours=3),'Africa/Nairobi')
 
 def git(*args,env=None):
-    return subprocess.check_output(['git',*args],cwd=ROOT,env=env,text=True,encoding='utf-8',newline='\n').strip()
+    return subprocess.check_output(['git',*args],cwd=ROOT,env=env,text=True,encoding='utf-8').strip()
 
 def now():
     return datetime.now(timezone.utc)
