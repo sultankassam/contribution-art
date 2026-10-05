@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 NAIROBI=timezone(timedelta(hours=3),'Africa/Nairobi')
 
 def git(*args,env=None):
-    return subprocess.check_output(['git',*args],cwd=ROOT,env=env,text=True,encoding='utf-8').strip()
+    return subprocess.check_output(['git',*args],cwd=ROOT,env=env,text=True,encoding='utf-8',newline='\n').strip()
 
 def now():
     return datetime.now(timezone.utc)
@@ -60,7 +60,7 @@ def main():
         if stamp>instant or day>instant.astimezone(NAIROBI).date():raise RuntimeError('Future timestamp refused')
         state['applied'][pixel['date']]={'commits':1,'createdAtUTC':instant.isoformat()}
         state_file=ROOT/'state.json'
-        state_file.write_text(json.dumps(state,indent=2)+'\n',encoding='utf-8')
+        state_file.write_text(json.dumps(state,indent=2)+'\n',encoding='utf-8',newline='\n')
         environment=os.environ.copy()
         environment.update({'GIT_AUTHOR_DATE':stamp.isoformat(),'GIT_COMMITTER_DATE':instant.isoformat()})
         try:

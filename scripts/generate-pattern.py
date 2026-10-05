@@ -84,17 +84,17 @@ def generate(year,today):
     folder=ROOT/'design'; folder.mkdir(exist_ok=True)
     for code,title,rows in options:
         cells=mapping(rows,year)
-        (folder/f'option-{code}.svg').write_text(render_svg(rows,year,today,title),encoding='utf-8')
-        (folder/f'option-{code}.json').write_text(json.dumps({'option':code,'title':title,'rows':rows,'pixels':len(cells)},indent=2)+'\n',encoding='utf-8')
+        (folder/f'option-{code}.svg').write_text(render_svg(rows,year,today,title),encoding='utf-8',newline='\n')
+        (folder/f'option-{code}.json').write_text(json.dumps({'option':code,'title':title,'rows':rows,'pixels':len(cells)},indent=2)+'\n',encoding='utf-8',newline='\n')
     rows=options[0][2];cells=mapping(rows,year)
     data={'username':'sultankassam','year':year,'text':'SULTAN KASSAM','option':'A','columns':53,'rowCount':7,'rowOrder':['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],'calendarStart':calendar_start(year).isoformat(),'commitsPerPixel':1,'shadePolicy':'Visibility first. GitHub intensity is relative; no exact shade guarantee.','rows':rows,'pixels':cells}
-    (folder/'sultan-kassam-grid.json').write_text(json.dumps(data,indent=2)+'\n',encoding='utf-8')
-    (folder/'preview.svg').write_text(render_svg(rows,year,today,'SULTAN KASSAM / selected design A'),encoding='utf-8')
-    (folder/'preview-progress.svg').write_text(render_svg(rows,year,today,'SULTAN KASSAM / reachable + pending',mode='progress'),encoding='utf-8')
-    (folder/'mapping.txt').write_text('\n'.join(rows)+'\n\n'+'\n'.join(f"{p['date']}  col={p['column']:02} row={p['row']}  commits=1  {'reachable' if date.fromisoformat(p['date'])<=today else 'pending'}" for p in cells)+'\n',encoding='utf-8')
+    (folder/'sultan-kassam-grid.json').write_text(json.dumps(data,indent=2)+'\n',encoding='utf-8',newline='\n')
+    (folder/'preview.svg').write_text(render_svg(rows,year,today,'SULTAN KASSAM / selected design A'),encoding='utf-8',newline='\n')
+    (folder/'preview-progress.svg').write_text(render_svg(rows,year,today,'SULTAN KASSAM / reachable + pending',mode='progress'),encoding='utf-8',newline='\n')
+    (folder/'mapping.txt').write_text('\n'.join(rows)+'\n\n'+'\n'.join(f"{p['date']}  col={p['column']:02} row={p['row']}  commits=1  {'reachable' if date.fromisoformat(p['date'])<=today else 'pending'}" for p in cells)+'\n',encoding='utf-8',newline='\n')
     # Optional 2025 plan only. No commits are made by this generator.
     plan_2025={'year':2025,'text':'SULTAN KASSAM','selected':False,'rows':rows,'pixels':mapping(rows,2025),'note':'Optional plan only. Requires explicit user selection before applying.'}
-    (folder/'optional-2025-plan.json').write_text(json.dumps(plan_2025,indent=2)+'\n',encoding='utf-8')
+    (folder/'optional-2025-plan.json').write_text(json.dumps(plan_2025,indent=2)+'\n',encoding='utf-8',newline='\n')
     reachable=[p for p in cells if date.fromisoformat(p['date'])<=today]
     pending=[p for p in cells if date.fromisoformat(p['date'])>today]
     print(json.dumps({'selected':'A','pixels':len(cells),'historical':len(reachable),'future':len(pending),'completion':cells[-1]['date']},indent=2))
